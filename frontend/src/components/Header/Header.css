@@ -1,0 +1,16 @@
+.Header-content {
+  background-color: #031b4e;
+  color: #fff;
+  font-size: 12px;
+  padding: 16px;
+}
+
+.Header-content h1{
+    margin-left: 32px;
+
+    font-weight: 400;
+}
+
+.Header-content h1 span{
+    font-size: 8px;
+}

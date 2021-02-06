@@ -1,0 +1,68 @@
+h2 {
+  margin: 32px 0 0 64px;
+}
+
+.InputMenu {
+  margin-top: 24px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.InputMenu .Menu-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.InputMenu .Menu-content label {
+  margin-bottom: 5px;
+}
+
+.InputMenu .Menu-content input {
+  width: 900px;
+  height: 35px;
+
+  margin-right: 25px;
+
+  outline: none;
+  padding-left: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+  color: #444;
+
+  font-size: 16px;
+}
+
+.InputMenu .group-button {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+.InputMenu .group-button button {
+  margin-bottom: 10px;
+
+  width: 150px;
+  height: 38px;
+
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+
+  color: #ffffff;
+  font-size: 15px;
+
+  cursor: pointer;
+
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.52);
+
+  transition: 0.8s;
+}
+
+.InputMenu .group-button button:hover {
+  opacity: 0.7;
+
+  transform: translateY(-2px);
+}
